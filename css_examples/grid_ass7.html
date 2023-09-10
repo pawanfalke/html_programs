@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        body{
+            display: grid;
+            grid-template-areas: 
+            "one one one one"
+            "two three four five"
+            "two six four five"
+            "two six seven five"
+            "two six eight nine";
+            grid-template-columns: 25% 25% 25% 25%;
+            grid-template-rows: 50% 15% 5% 15% 15%;
+            grid-gap: 10px;
+            height: 100vh;
+            margin: 0;
+        }
+       div{
+            background-color: gold;
+            padding: 20px;
+        }
+        #a{
+            grid-area: one;
+        }
+        #b{
+            grid-area: two;
+        }
+         #c{
+            grid-area: three;
+        }
+        #d{
+            grid-area: four;
+        }
+        #e{
+            grid-area: five;
+        }
+        #f{
+            grid-area: six;
+        }
+        #g{
+            grid-area: seven;
+        }
+        #h{
+            grid-area: eight;
+        }
+        #i{
+            grid-area: nine;
+        }
+    </style>
+    </head>
+    <body>
+       <div id="a">1</div>
+       <div id="b">2</div>
+       <div id="c">3</div>
+       <div id="d">4</div>
+       <div id="e">5</div>
+       <div id="f">6</div>
+       <div id="g">7</div>
+       <div id="h">8</div>
+       <div id="i">9</div>
+    </body>
+</html>

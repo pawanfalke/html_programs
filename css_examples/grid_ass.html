@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+    body{
+        margin: 0;
+    }
+    .container{
+        display: grid;
+        grid-template-rows: 20vh 1fr 20vh;
+        grid-template-columns:100vw ;
+        grid-gap: 10px;
+        width: 100vw;
+        height: 100vh;
+       
+    }
+    .container2{
+        display: grid;
+        grid-template-columns: 20% 1fr 20%;
+        grid-gap: 10px;
+    }
+    .item{
+        background-color: gold;
+        font-size: 2em;
+    }
+
+</style>
+    </head>
+    <body>
+        <div class="container">
+        <div class="item">Header</div>
+        <div class="container2">
+            <div class="item">Nav</div>
+            <div class="item">Article</div>
+            <div class="item">Ads</div>
+        </div>
+        <div class="item">Footer</div>
+        </div>
+    </body>
+</html>
