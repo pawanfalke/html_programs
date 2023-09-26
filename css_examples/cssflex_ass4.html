@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .box {
+            display: flex;
+            background-color: burlywood;
+            padding: 10px;
+            height: 30vh;
+        }
+
+        .box1 {
+            width: 20%;
+        }
+
+        .box2 {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #t1 {
+            height: 80%;
+            width: 60%;
+        }
+        .item2,.item3,.item4{
+            display: flex;
+            flex-direction: column;
+            padding-top: 10px;
+        }
+        .item1{
+            display: flex;
+            flex-direction: column;
+            padding-top: 10px;
+        }
+        #b1{
+            background-color: gray;
+            color: white;
+            
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="box1">
+            <div>Message</div>
+            <input type="text" id="t1">
+        </div>
+        <div class="box2">
+            <div class="item1">
+                <div>Name</div>
+                <input type="text" id="t2">
+            </div>
+            <div class="item2">
+                <div>Town you were born in</div>
+                <input type="text" id="t3">
+            </div>
+            <div class="item3">
+                <div>Email Address</div>
+                <input type="text" id="t4">
+            </div>
+            <div class="item4">
+                <form><input type="button" value="submit" id="b1"></form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                margin: 0;
+            }
+            header{
+                background-color: gold;
+                height: 10vh;
+                border-bottom: 10px solid white;
+            }
+            #main{
+                display: flex;
+                height: 90vh;
+
+            }
+            #submain1{
+                display: flex;
+                flex-direction: column;
+                width: 60%;
+                border-right: 10px solid white;
+            }
+            #submain2{
+                display: flex;
+                width: 40%;
+                background-color: gold;
+            }
+            #article{
+                height: 90%;
+                background-color: gold;
+                border-bottom: 10px solid white;
+            }
+            #footer{
+                background-color: gold;
+                height: 10%;
+            }
+            #nav{
+                width: 50%;
+                background-color:gold;
+                border-right: 10px solid white;
+            }
+            #ads{
+                width: 50%;
+                background-color: gold;
+            }
+        </style>
+    </head>
+    <body>
+        <header>Header</header>
+        <main id="main">
+            <div id="submain1">
+                <article id="article">article</article>
+                <footer id="footer">footer</footer>
+            </div>
+            <div id="submain2">
+                <nav id="nav">nav</nav>
+                <div id="ads">ads</div>
+            </div>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+    body{
+        margin: 0;
+    }
+    header{
+        height: 10vh;
+        background-color: green;
+        border-bottom: 10px solid white;
+    }
+    main{
+        display: flex;
+        height: 90vh;
+        background-color: green;
+    }
+    #submain1{
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        border-right: 10px solid white;
+    }
+    #nav{
+        height: 60%;
+        border-bottom: 10px solid white;
+    }
+    #submain2{
+        flex-direction: column;
+        width: 80%;
+    }
+    #article{
+        height: 90%;
+        border-bottom: 10px solid white;
+    }
+</style>
+    </head>
+    <body>
+        <header>header</header>
+        <main>
+            <div id="submain1">
+                <nav id="nav">nav</nav>
+                <div id="ads">ads</div>
+            </div>
+            <div id="submain2">
+                <article id="article">article</article>
+                <footer>footer</footer>
+            </div>
+        </main>
+    </body>
+</html>
