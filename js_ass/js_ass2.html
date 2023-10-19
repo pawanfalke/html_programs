@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: aliceblue;
+        }
+
+        .panel {
+            margin: 8%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        .question {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .options {
+            font-size: 20px;
+            display:flex;
+           flex-direction: column;
+            grid-gap: 20px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            position: fixed;
+            top: 40%;
+            left: 40%;
+        }
+
+        button {
+            margin-top: 20%;
+            font-size: 20px;
+            padding: 10px 20px;
+            background-color:darkmagenta;
+            color: white;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        #score {
+            font-size: 30px;
+            color: darkslategray;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="panel">
+        <h1>Quiz Application Using JavaScript</h1>
+        <div class="question" id="ques"></div>
+        <div class="options" id="opt"></div>
+        <button onclick="checkAns()" id="btn">SUBMIT</button>
+        <div id="score"></div>
+        <script src="js_ass2_script.js"></script>
+    </div>
+
+</body>
+
+</html>
